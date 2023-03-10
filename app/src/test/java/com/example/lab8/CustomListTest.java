@@ -18,9 +18,12 @@ public class CustomListTest {
         return list;
     }
 
+
     @Test
     public void addCityTest(){
-        list.addCity(new City("Estevan", "SK"));
-        return;
+        list = MockCityList();
+        int listSize = list.getCount();
+        list.addCity(new City("Vancouver", "BC"));
+        assertEquals(list.getCount(),listSize + 1);
     }
 }
