@@ -28,7 +28,7 @@ public class CustomListTest {
     }
 
     @Test
-    public void hasCityTest() {
+    public void hasCityTests() {
         return;
     }
 }
