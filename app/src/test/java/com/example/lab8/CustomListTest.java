@@ -26,4 +26,9 @@ public class CustomListTest {
         list.addCity(new City("Vancouver", "BC"));
         assertEquals(list.getCount(),listSize + 1);
     }
+
+    @Test
+    public void hasCityTest() {
+        return;
+    }
 }
