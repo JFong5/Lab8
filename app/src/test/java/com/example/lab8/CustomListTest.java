@@ -29,6 +29,6 @@ public class CustomListTest {
 
     @Test
     public void hasCityTest() {
-        return
+        return 
     }
 }
