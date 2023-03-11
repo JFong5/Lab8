@@ -33,4 +33,9 @@ public class CustomListTest {
         list.addCity(new City("Toronto", "ON"));
         assertEquals(list.hasCity(), true);
     }
+
+    @Test
+    public void deleteCityTest() {
+        return
+    }
 }
